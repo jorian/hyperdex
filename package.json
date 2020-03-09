@@ -29,8 +29,8 @@
 		"electron-util": "^0.10.2",
 		"emittery": "^0.4.1",
 		"filter-console": "^0.1.1",
-		"got": "^10.6.0",
 		"gh-got": "^9.0.0",
+		"got": "^10.6.0",
 		"hasha": "^5.0.0",
 		"hoist-non-react-statics": "^3.3.0",
 		"lodash": "^4.17.11",
@@ -98,7 +98,7 @@
 		"eslint-plugin-react-hooks": "^1.6.0",
 		"file-loader": "^2.0.0",
 		"node-fetch": "^2.3.0",
-		"node-sass": "^4.11.0",
+		"node-sass": "^4.12.0",
 		"np": "^5.0.2",
 		"npm-run-all": "^4.1.5",
 		"proxyquire": "^2.1.0",
@@ -121,7 +121,7 @@
 		]
 	},
 	"xo": {
-		"nodeVersion": ">=10",
+		"nodeVersion": ">=12",
 		"parser": "babel-eslint",
 		"envs": [
 			"node",
