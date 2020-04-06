@@ -704,6 +704,26 @@ const supportedCurrencies = [
 		],
 	},
 	{
+		coin: 'ILN',
+		asset: 'ILN',
+		fname: 'Ilien',
+		rpcport: 12986,
+		mm2: 1,
+		txversion: 4,
+		overwintered: 1,
+		required_confirmations: 1,
+		electrumServers: [
+			{
+				host: 'electrum1.ilien.io',
+				port: 65011,
+			},
+			{
+				host: 'electrum2.ilien.io',
+				port: 65011,
+			},
+		],
+	},
+	{
 		coin: 'IOST',
 		name: 'IOST',
 		contractAddress: '0xFA1a856Cfa3409CFa145Fa4e20Eb270dF3EB21ab',
