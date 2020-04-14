@@ -1,3 +1,29 @@
+## DEV
+
+This is the development branch that used to be called `use-the-concept-of-orders-instead-of-swaps`. Marketmaker version 1 had no notion of orders, not as much as it is in the current Marketmaker version 2.
+
+It attempts to make HyperDEX ready for mm2.0 support. @particle4dev has done most of the work, including:
+
+- [create Order data format](https://github.com/particle4dev/hyperdex/commit/3975c3fae4d02d9fc473dc52791dfd2efefab7c0)
+- [add myOrders method](https://github.com/particle4dev/hyperdex/commit/05105c7e0f2c08612050221269e57fd01f2de496)
+- [add cancelAllOrders method](https://github.com/particle4dev/hyperdex/commit/caed50c99632ff6bf01abd39ff35df2bd8ca55f0)
+- [remove order from DB](https://github.com/particle4dev/hyperdex/commit/2cf004b09c84d288a21e906f1ff9da291f51eb26)
+- [add global orders](https://github.com/particle4dev/hyperdex/commit/310027980094942c878ed76acbd7739b414fa460)
+- several tests ([1](https://github.com/particle4dev/hyperdex/commit/324f30d4080c2cf6ec2b4c35db7b6555c371f0da), [2](https://github.com/particle4dev/hyperdex/commit/db94b94d0362838ab73b22ee82a13e1d73ea6a70), [3](https://github.com/particle4dev/hyperdex/commit/2ef5d6398b397ebe577286836c905737252d3f98), [4](https://github.com/particle4dev/hyperdex/commit/3975c3fae4d02d9fc473dc52791dfd2efefab7c0))
+- [cancel all orders for a pair before placing new order](https://github.com/particle4dev/hyperdex/commit/238ac76d8c8ac107d496d2c006e42d9853a41022)
+- [update Dashboard with completed orders](https://github.com/particle4dev/hyperdex/commit/6d4871dc60dff821a367f40256b110bb062e470a)
+- [update Swap Details](https://github.com/particle4dev/hyperdex/commit/a7ff7609f83888c112e06ac6a701fcd603051755)
+- [add cancel order button for open order](https://github.com/particle4dev/hyperdex/commit/80d1fcf5fd0ba108ebcbfb5c7bb591c939312ccc)
+- [order sorting](https://github.com/particle4dev/hyperdex/commit/46d2a6fc9719926419bb139b65dae0bf5da31dc1)
+- [ability to disable coin](https://github.com/particle4dev/hyperdex/commit/2a794ea9572a2f52a3c751cc7eddfb8072986882)
+- [add KMD asset coins](https://github.com/particle4dev/hyperdex/commit/ee80130073263d40c0a3dd640b569ba39b3a9b22) and [remove a lot of dead coins](https://github.com/particle4dev/hyperdex/commit/77df7b357dadb72474c755cfaf7ee5e648a27448)
+
+**This by no means makes HyperDEX ready for mm2.0.** There are several [issues](https://github.com/atomiclabs/hyperdex/issues) still open and with the ongoing work on mm2.0 by the Komodo Team devs, more changes will be needed in the future.
+
+## Funding
+
+As of now, there is no active funding for this project.
+
 <div align="center">
 	<br>
 	<img src="media/Logo-Black-Text.png" height="260">
