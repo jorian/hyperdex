@@ -13,7 +13,7 @@ The hash used in `marketmaker.hashes` is SHA512.
 */
 
 // TODO manage beta version from package.json
-const ghBaseURL = 'repos/KomodoPlatform/atomicDEX-API/releases/tags/beta-2.0.2232' // 'http://195.201.0.6/mm2/';
+const ghBaseURL = 'repos/KomodoPlatform/atomicDEX-API/releases/tags/beta-2.1.2894' // 'http://195.201.0.6/mm2/';
 
 const cacheDirectory = path.join(os.homedir(), '.marketmaker');
 
