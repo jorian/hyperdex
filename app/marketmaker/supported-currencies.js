@@ -1143,6 +1143,30 @@ const supportedCurrencies = [
 		],
 	},
 	{
+		coin: 'RFOX',
+		name: 'RedFOX Labs',
+		asset: 'RFOX',
+		rpcport: 32269,
+		txversion: 4,
+		overwintered: 1,
+		required_confirmations: 1,
+		mm2: 1,
+		electrumServers: [
+			{
+				host: 'electrum1.cipig.net',
+				port: 10034,
+			},
+			{
+				host: 'electrum2.cipig.net',
+				port: 10034,
+			},
+			{
+				host: 'electrum3.cipig.net',
+				port: 10034,
+			},
+		],
+	},
+	{
 		coin: 'QASH',
 		name: 'Qash',
 		contractAddress: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6',
